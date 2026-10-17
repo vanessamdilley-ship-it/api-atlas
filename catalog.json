@@ -1,0 +1,3152 @@
+{
+  "schema_version": "1.4.0",
+  "generated_at_utc": "2026-10-17T15:06:42.201285+00:00",
+  "record_count": 117,
+  "records": [
+    {
+      "id": "open-meteo",
+      "name": "Open-Meteo",
+      "provider": "Open-Meteo",
+      "category": "Weather",
+      "description": "Forecast and historical weather data; noncommercial free access; commercial plans require review.",
+      "documentation_url": "https://open-meteo.com/en/docs",
+      "pricing_url": "https://open-meteo.com/en/pricing",
+      "pricing_model": "freemium",
+      "authentication": "none",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "Free noncommercial: 600/min; 5000/hour; 10000/day; 300000/month",
+      "commercial_use": "Paid subscription required for commercial API access",
+      "verification_status": "partially_verified_official",
+      "last_checked_utc": "2026-10-17T00:00:00Z",
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "weather"
+      ],
+      "source_urls": [
+        "https://open-meteo.com/en/docs",
+        "https://open-meteo.com/en/pricing"
+      ],
+      "pricing_notes": "Standard 1M calls/month; Professional 5M calls/month. Dollar subscription prices not captured.",
+      "verified_fields": [
+        "rate_limit",
+        "commercial_use",
+        "plan_call_budgets"
+      ],
+      "evidence_urls": [
+        "https://open-meteo.com/en/pricing"
+      ]
+    },
+    {
+      "id": "nasa-api",
+      "name": "NASA Open APIs",
+      "provider": "NASA",
+      "category": "Science",
+      "description": "Space imagery and NASA datasets.",
+      "documentation_url": "https://api.nasa.gov/",
+      "pricing_url": "https://api.nasa.gov/",
+      "pricing_model": "free",
+      "authentication": "key",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "unknown/not checked",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official URL listed, not live verified",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "science"
+      ],
+      "source_urls": [
+        "https://api.nasa.gov/",
+        "https://api.nasa.gov/"
+      ]
+    },
+    {
+      "id": "openalex",
+      "name": "OpenAlex",
+      "provider": "OurResearch",
+      "category": "Education",
+      "description": "Scholarly works, authors, institutions and citations.",
+      "documentation_url": "https://docs.openalex.org/",
+      "pricing_url": "https://openalex.org/",
+      "pricing_model": "freemium",
+      "authentication": "key",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "unknown/not checked",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official URL listed, not live verified",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "education"
+      ],
+      "source_urls": [
+        "https://docs.openalex.org/",
+        "https://openalex.org/"
+      ]
+    },
+    {
+      "id": "crossref",
+      "name": "Crossref REST API",
+      "provider": "Crossref",
+      "category": "Education",
+      "description": "DOI metadata for research publications.",
+      "documentation_url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+      "pricing_url": "https://www.crossref.org/",
+      "pricing_model": "free",
+      "authentication": "none",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "unknown/not checked",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official URL listed, not live verified",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "education"
+      ],
+      "source_urls": [
+        "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+        "https://www.crossref.org/"
+      ]
+    },
+    {
+      "id": "openstreetmap",
+      "name": "OpenStreetMap Overpass API",
+      "provider": "OpenStreetMap community",
+      "category": "Geospatial",
+      "description": "Query OpenStreetMap geographic features; public instance usage policy applies.",
+      "documentation_url": "https://wiki.openstreetmap.org/wiki/Overpass_API",
+      "pricing_url": "https://wiki.openstreetmap.org/wiki/Overpass_API",
+      "pricing_model": "free",
+      "authentication": "none",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "unknown/not checked",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official URL listed, not live verified",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "geospatial"
+      ],
+      "source_urls": [
+        "https://wiki.openstreetmap.org/wiki/Overpass_API",
+        "https://wiki.openstreetmap.org/wiki/Overpass_API"
+      ]
+    },
+    {
+      "id": "usgs-earthquake",
+      "name": "USGS Earthquake API",
+      "provider": "USGS",
+      "category": "Environment",
+      "description": "Earthquake event search and feeds.",
+      "documentation_url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+      "pricing_url": "https://earthquake.usgs.gov/",
+      "pricing_model": "free",
+      "authentication": "none",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "unknown/not checked",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official URL listed, not live verified",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "environment"
+      ],
+      "source_urls": [
+        "https://earthquake.usgs.gov/fdsnws/event/1/",
+        "https://earthquake.usgs.gov/"
+      ]
+    },
+    {
+      "id": "fred",
+      "name": "FRED API",
+      "provider": "Federal Reserve Bank of St. Louis",
+      "category": "Finance",
+      "description": "Economic time-series observations and metadata.",
+      "documentation_url": "https://fred.stlouisfed.org/docs/api/fred/",
+      "pricing_url": "https://fred.stlouisfed.org/",
+      "pricing_model": "free",
+      "authentication": "key",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "unknown/not checked",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official URL listed, not live verified",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "finance"
+      ],
+      "source_urls": [
+        "https://fred.stlouisfed.org/docs/api/fred/",
+        "https://fred.stlouisfed.org/"
+      ]
+    },
+    {
+      "id": "world-bank",
+      "name": "World Bank Indicators API",
+      "provider": "World Bank",
+      "category": "Government",
+      "description": "Global development indicators and country statistics.",
+      "documentation_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+      "pricing_url": "https://data.worldbank.org/",
+      "pricing_model": "free",
+      "authentication": "none",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "unknown/not checked",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official URL listed, not live verified",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "government"
+      ],
+      "source_urls": [
+        "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+        "https://data.worldbank.org/"
+      ]
+    },
+    {
+      "id": "github",
+      "name": "GitHub REST API",
+      "provider": "GitHub",
+      "category": "Developer",
+      "description": "Repositories, issues, pull requests and user information.",
+      "documentation_url": "https://docs.github.com/en/rest",
+      "pricing_url": "https://github.com/pricing",
+      "pricing_model": "freemium",
+      "authentication": "token",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "General primary: 60/hour unauthenticated; 5000/hour personal access token; endpoint-specific and secondary limits apply",
+      "commercial_use": "requires terms review",
+      "verification_status": "partially_verified_official",
+      "last_checked_utc": "2026-10-17T00:00:00Z",
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "developer"
+      ],
+      "source_urls": [
+        "https://docs.github.com/en/rest",
+        "https://github.com/pricing"
+      ],
+      "pricing_notes": "No verified per-request dollar rate; API limits do not imply a subscription price.",
+      "verified_fields": [
+        "rate_limit"
+      ],
+      "evidence_urls": [
+        "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api"
+      ]
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe API",
+      "provider": "Stripe",
+      "category": "Payments",
+      "description": "Payment processing, billing and customers; transaction-based pricing.",
+      "documentation_url": "https://docs.stripe.com/api",
+      "pricing_url": "https://stripe.com/pricing",
+      "pricing_model": "paid",
+      "authentication": "key",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "unknown/not checked",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official URL listed, not live verified",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "payments"
+      ],
+      "source_urls": [
+        "https://docs.stripe.com/api",
+        "https://stripe.com/pricing"
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI API",
+      "provider": "OpenAI",
+      "category": "AI",
+      "description": "AI models for text, image, audio and other workloads; model-dependent pricing.",
+      "documentation_url": "https://platform.openai.com/docs/overview",
+      "pricing_url": "https://openai.com/api/pricing/",
+      "pricing_model": "paid",
+      "authentication": "key",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "unknown/not checked",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official URL listed, not live verified",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "ai"
+      ],
+      "source_urls": [
+        "https://platform.openai.com/docs/overview",
+        "https://openai.com/api/pricing/"
+      ]
+    },
+    {
+      "id": "twilio",
+      "name": "Twilio Messaging API",
+      "provider": "Twilio",
+      "category": "Communications",
+      "description": "Programmatic SMS and messaging; destination-dependent pricing.",
+      "documentation_url": "https://www.twilio.com/docs/messaging/api",
+      "pricing_url": "https://www.twilio.com/en-us/messaging/pricing",
+      "pricing_model": "paid",
+      "authentication": "key",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "unknown/not checked",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official URL listed, not live verified",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "communications"
+      ],
+      "source_urls": [
+        "https://www.twilio.com/docs/messaging/api",
+        "https://www.twilio.com/en-us/messaging/pricing"
+      ]
+    },
+    {
+      "id": "coingecko",
+      "name": "CoinGecko API",
+      "provider": "CoinGecko",
+      "category": "Finance",
+      "description": "Cryptocurrency market prices and asset metadata.",
+      "documentation_url": "https://docs.coingecko.com/",
+      "pricing_url": "https://www.coingecko.com/en/api/pricing",
+      "pricing_model": "freemium",
+      "authentication": "key",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "unknown/not checked",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official URL listed, not live verified",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "finance"
+      ],
+      "source_urls": [
+        "https://docs.coingecko.com/",
+        "https://www.coingecko.com/en/api/pricing"
+      ]
+    },
+    {
+      "id": "openlibrary",
+      "name": "Open Library API",
+      "provider": "Internet Archive",
+      "category": "Education",
+      "description": "Book metadata, authors and editions.",
+      "documentation_url": "https://openlibrary.org/developers/api",
+      "pricing_url": "https://openlibrary.org/developers/api",
+      "pricing_model": "free",
+      "authentication": "none",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "unknown/not checked",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official URL listed, not live verified",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "education"
+      ],
+      "source_urls": [
+        "https://openlibrary.org/developers/api",
+        "https://openlibrary.org/developers/api"
+      ]
+    },
+    {
+      "id": "pokeapi",
+      "name": "PokéAPI",
+      "provider": "PokéAPI",
+      "category": "Entertainment",
+      "description": "Pokémon game data and related resources.",
+      "documentation_url": "https://pokeapi.co/docs/v2",
+      "pricing_url": "https://pokeapi.co/",
+      "pricing_model": "free",
+      "authentication": "none",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "unknown/not checked",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official URL listed, not live verified",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "entertainment"
+      ],
+      "source_urls": [
+        "https://pokeapi.co/docs/v2",
+        "https://pokeapi.co/"
+      ]
+    },
+    {
+      "id": "census",
+      "name": "US Census Data API",
+      "provider": "US Census Bureau",
+      "category": "Government",
+      "description": "US population, housing and economic datasets.",
+      "documentation_url": "https://www.census.gov/data/developers/data-sets.html",
+      "pricing_url": "https://www.census.gov/data/developers.html",
+      "pricing_model": "free",
+      "authentication": "key_optional",
+      "protocol": "REST",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: model and usage-specific",
+      "rate_limit": "unknown/not checked",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official URL listed, not live verified",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T01:50:00Z",
+      "tags": [
+        "government"
+      ],
+      "source_urls": [
+        "https://www.census.gov/data/developers/data-sets.html",
+        "https://www.census.gov/data/developers.html"
+      ]
+    },
+    {
+      "id": "restcountries",
+      "name": "REST Countries",
+      "provider": "REST Countries",
+      "category": "Government",
+      "description": "Country and territory reference information",
+      "documentation_url": "https://restcountries.com/",
+      "pricing_url": null,
+      "pricing_model": "free",
+      "authentication": "none",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "government"
+      ],
+      "source_urls": [
+        "https://restcountries.com/"
+      ]
+    },
+    {
+      "id": "openfoodfacts",
+      "name": "Open Food Facts API",
+      "provider": "Open Food Facts",
+      "category": "Retail",
+      "description": "Food products and ingredient information",
+      "documentation_url": "https://openfoodfacts.github.io/openfoodfacts-server/api/",
+      "pricing_url": null,
+      "pricing_model": "free",
+      "authentication": "none",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "retail"
+      ],
+      "source_urls": [
+        "https://openfoodfacts.github.io/openfoodfacts-server/api/"
+      ]
+    },
+    {
+      "id": "gbif",
+      "name": "GBIF API",
+      "provider": "GBIF",
+      "category": "Science",
+      "description": "Biodiversity occurrences and taxonomy",
+      "documentation_url": "https://techdocs.gbif.org/en/openapi/",
+      "pricing_url": null,
+      "pricing_model": "free",
+      "authentication": "none",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "science"
+      ],
+      "source_urls": [
+        "https://techdocs.gbif.org/en/openapi/"
+      ]
+    },
+    {
+      "id": "pubmed",
+      "name": "NCBI E-utilities",
+      "provider": "NCBI",
+      "category": "Healthcare",
+      "description": "Biomedical publication searches and metadata",
+      "documentation_url": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
+      "pricing_url": null,
+      "pricing_model": "free",
+      "authentication": "key_optional",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "healthcare"
+      ],
+      "source_urls": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK25501/"
+      ]
+    },
+    {
+      "id": "clinicaltrials",
+      "name": "ClinicalTrials.gov API",
+      "provider": "ClinicalTrials.gov",
+      "category": "Healthcare",
+      "description": "Clinical study records",
+      "documentation_url": "https://clinicaltrials.gov/data-api/api",
+      "pricing_url": null,
+      "pricing_model": "free",
+      "authentication": "none",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "healthcare"
+      ],
+      "source_urls": [
+        "https://clinicaltrials.gov/data-api/api"
+      ]
+    },
+    {
+      "id": "openfda",
+      "name": "openFDA API",
+      "provider": "FDA",
+      "category": "Healthcare",
+      "description": "Public FDA datasets and reports",
+      "documentation_url": "https://open.fda.gov/apis/",
+      "pricing_url": null,
+      "pricing_model": "free",
+      "authentication": "key_optional",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "healthcare"
+      ],
+      "source_urls": [
+        "https://open.fda.gov/apis/"
+      ]
+    },
+    {
+      "id": "eia",
+      "name": "EIA API",
+      "provider": "US Energy Information Administration",
+      "category": "Energy",
+      "description": "US energy production and consumption data",
+      "documentation_url": "https://www.eia.gov/opendata/",
+      "pricing_url": null,
+      "pricing_model": "free",
+      "authentication": "key",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "energy"
+      ],
+      "source_urls": [
+        "https://www.eia.gov/opendata/"
+      ]
+    },
+    {
+      "id": "nrel",
+      "name": "NREL Developer APIs",
+      "provider": "NREL",
+      "category": "Energy",
+      "description": "Renewable energy and transportation data",
+      "documentation_url": "https://developer.nrel.gov/",
+      "pricing_url": null,
+      "pricing_model": "free",
+      "authentication": "key",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "energy"
+      ],
+      "source_urls": [
+        "https://developer.nrel.gov/"
+      ]
+    },
+    {
+      "id": "noaa",
+      "name": "NOAA Climate Data Online API",
+      "provider": "NOAA",
+      "category": "Weather",
+      "description": "Historical climate observations",
+      "documentation_url": "https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "weather"
+      ],
+      "source_urls": [
+        "https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation"
+      ]
+    },
+    {
+      "id": "openaq",
+      "name": "OpenAQ API",
+      "provider": "OpenAQ",
+      "category": "Environment",
+      "description": "Air quality measurement data",
+      "documentation_url": "https://docs.openaq.org/",
+      "pricing_url": null,
+      "pricing_model": "freemium",
+      "authentication": "key",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "environment"
+      ],
+      "source_urls": [
+        "https://docs.openaq.org/"
+      ]
+    },
+    {
+      "id": "usaspending",
+      "name": "USAspending API",
+      "provider": "USAspending.gov",
+      "category": "Government",
+      "description": "US federal spending awards and transactions",
+      "documentation_url": "https://api.usaspending.gov/",
+      "pricing_url": null,
+      "pricing_model": "free",
+      "authentication": "none",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "government"
+      ],
+      "source_urls": [
+        "https://api.usaspending.gov/"
+      ]
+    },
+    {
+      "id": "europeana",
+      "name": "Europeana APIs",
+      "provider": "Europeana",
+      "category": "Education",
+      "description": "European cultural heritage collections",
+      "documentation_url": "https://pro.europeana.eu/page/apis",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "key",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "education"
+      ],
+      "source_urls": [
+        "https://pro.europeana.eu/page/apis"
+      ]
+    },
+    {
+      "id": "wikidata",
+      "name": "Wikidata Query Service",
+      "provider": "Wikimedia",
+      "category": "Education",
+      "description": "Structured knowledge graph queries",
+      "documentation_url": "https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service",
+      "pricing_url": null,
+      "pricing_model": "free",
+      "authentication": "none",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "education"
+      ],
+      "source_urls": [
+        "https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service"
+      ]
+    },
+    {
+      "id": "openverse",
+      "name": "Openverse API",
+      "provider": "WordPress",
+      "category": "Media",
+      "description": "Search openly licensed media metadata",
+      "documentation_url": "https://api.openverse.org/v1/",
+      "pricing_url": null,
+      "pricing_model": "free",
+      "authentication": "key_optional",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "media"
+      ],
+      "source_urls": [
+        "https://api.openverse.org/v1/"
+      ]
+    },
+    {
+      "id": "tmdb",
+      "name": "TMDB API",
+      "provider": "The Movie Database",
+      "category": "Entertainment",
+      "description": "Film and television metadata",
+      "documentation_url": "https://developer.themoviedb.org/docs/getting-started",
+      "pricing_url": null,
+      "pricing_model": "freemium",
+      "authentication": "token",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "entertainment"
+      ],
+      "source_urls": [
+        "https://developer.themoviedb.org/docs/getting-started"
+      ]
+    },
+    {
+      "id": "unsplash",
+      "name": "Unsplash API",
+      "provider": "Unsplash",
+      "category": "Media",
+      "description": "Photo discovery and metadata",
+      "documentation_url": "https://unsplash.com/documentation",
+      "pricing_url": null,
+      "pricing_model": "freemium",
+      "authentication": "key",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "media"
+      ],
+      "source_urls": [
+        "https://unsplash.com/documentation"
+      ]
+    },
+    {
+      "id": "mapbox",
+      "name": "Mapbox APIs",
+      "provider": "Mapbox",
+      "category": "Geospatial",
+      "description": "Maps, geocoding and routing",
+      "documentation_url": "https://docs.mapbox.com/api/",
+      "pricing_url": null,
+      "pricing_model": "freemium",
+      "authentication": "token",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "geospatial"
+      ],
+      "source_urls": [
+        "https://docs.mapbox.com/api/"
+      ]
+    },
+    {
+      "id": "openrouteservice",
+      "name": "openrouteservice API",
+      "provider": "HeiGIT",
+      "category": "Transportation",
+      "description": "Directions, isochrones and geocoding",
+      "documentation_url": "https://openrouteservice.org/dev/#/api-docs",
+      "pricing_url": null,
+      "pricing_model": "freemium",
+      "authentication": "key",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "transportation"
+      ],
+      "source_urls": [
+        "https://openrouteservice.org/dev/#/api-docs"
+      ]
+    },
+    {
+      "id": "aviationstack",
+      "name": "Aviationstack API",
+      "provider": "APILayer",
+      "category": "Aviation",
+      "description": "Flight status and aviation data",
+      "documentation_url": "https://aviationstack.com/documentation",
+      "pricing_url": null,
+      "pricing_model": "freemium",
+      "authentication": "key",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "aviation"
+      ],
+      "source_urls": [
+        "https://aviationstack.com/documentation"
+      ]
+    },
+    {
+      "id": "sendgrid",
+      "name": "Twilio SendGrid API",
+      "provider": "Twilio SendGrid",
+      "category": "Communications",
+      "description": "Transactional email delivery",
+      "documentation_url": "https://www.twilio.com/docs/sendgrid/api-reference",
+      "pricing_url": null,
+      "pricing_model": "freemium",
+      "authentication": "key",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "communications"
+      ],
+      "source_urls": [
+        "https://www.twilio.com/docs/sendgrid/api-reference"
+      ]
+    },
+    {
+      "id": "discord",
+      "name": "Discord API",
+      "provider": "Discord",
+      "category": "Communications",
+      "description": "Bots, servers and interactions",
+      "documentation_url": "https://discord.com/developers/docs/intro",
+      "pricing_url": null,
+      "pricing_model": "free",
+      "authentication": "token",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "communications"
+      ],
+      "source_urls": [
+        "https://discord.com/developers/docs/intro"
+      ]
+    },
+    {
+      "id": "slack",
+      "name": "Slack Web API",
+      "provider": "Slack",
+      "category": "Communications",
+      "description": "Workspace messages and app integrations",
+      "documentation_url": "https://api.slack.com/web",
+      "pricing_url": null,
+      "pricing_model": "freemium",
+      "authentication": "token",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "communications"
+      ],
+      "source_urls": [
+        "https://api.slack.com/web"
+      ]
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify Admin API",
+      "provider": "Shopify",
+      "category": "Commerce",
+      "description": "Store management and product operations",
+      "documentation_url": "https://shopify.dev/docs/api/admin-graphql",
+      "pricing_url": null,
+      "pricing_model": "paid",
+      "authentication": "token",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "commerce"
+      ],
+      "source_urls": [
+        "https://shopify.dev/docs/api/admin-graphql"
+      ]
+    },
+    {
+      "id": "square",
+      "name": "Square API",
+      "provider": "Square",
+      "category": "Payments",
+      "description": "Commerce, catalog and payment operations",
+      "documentation_url": "https://developer.squareup.com/reference/square",
+      "pricing_url": null,
+      "pricing_model": "paid",
+      "authentication": "token",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "payments"
+      ],
+      "source_urls": [
+        "https://developer.squareup.com/reference/square"
+      ]
+    },
+    {
+      "id": "plaid",
+      "name": "Plaid API",
+      "provider": "Plaid",
+      "category": "Finance",
+      "description": "Financial account connectivity",
+      "documentation_url": "https://plaid.com/docs/",
+      "pricing_url": null,
+      "pricing_model": "paid",
+      "authentication": "key",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "finance"
+      ],
+      "source_urls": [
+        "https://plaid.com/docs/"
+      ]
+    },
+    {
+      "id": "alpha-vantage",
+      "name": "Alpha Vantage API",
+      "provider": "Alpha Vantage",
+      "category": "Finance",
+      "description": "Market data and technical indicators",
+      "documentation_url": "https://www.alphavantage.co/documentation/",
+      "pricing_url": null,
+      "pricing_model": "freemium",
+      "authentication": "key",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "finance"
+      ],
+      "source_urls": [
+        "https://www.alphavantage.co/documentation/"
+      ]
+    },
+    {
+      "id": "exchangerate",
+      "name": "Frankfurter API",
+      "provider": "Frankfurter",
+      "category": "Finance",
+      "description": "Foreign exchange reference rates",
+      "documentation_url": "https://frankfurter.dev/",
+      "pricing_url": null,
+      "pricing_model": "free",
+      "authentication": "none",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "finance"
+      ],
+      "source_urls": [
+        "https://frankfurter.dev/"
+      ]
+    },
+    {
+      "id": "ipinfo",
+      "name": "IPinfo API",
+      "provider": "IPinfo",
+      "category": "Cybersecurity",
+      "description": "IP address geolocation and network metadata",
+      "documentation_url": "https://ipinfo.io/developers",
+      "pricing_url": null,
+      "pricing_model": "freemium",
+      "authentication": "token",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "cybersecurity"
+      ],
+      "source_urls": [
+        "https://ipinfo.io/developers"
+      ]
+    },
+    {
+      "id": "haveibeenpwned",
+      "name": "Have I Been Pwned API",
+      "provider": "Have I Been Pwned",
+      "category": "Cybersecurity",
+      "description": "Breach exposure checks",
+      "documentation_url": "https://haveibeenpwned.com/API/v3",
+      "pricing_url": null,
+      "pricing_model": "paid",
+      "authentication": "key",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "cybersecurity"
+      ],
+      "source_urls": [
+        "https://haveibeenpwned.com/API/v3"
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare API",
+      "provider": "Cloudflare",
+      "category": "Cloud",
+      "description": "DNS, security and edge configuration",
+      "documentation_url": "https://developers.cloudflare.com/api/",
+      "pricing_url": null,
+      "pricing_model": "freemium",
+      "authentication": "token",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:15:23.418178+00:00",
+      "tags": [
+        "cloud"
+      ],
+      "source_urls": [
+        "https://developers.cloudflare.com/api/"
+      ]
+    },
+    {
+      "id": "anthropic-api",
+      "name": "Anthropic API",
+      "provider": "Anthropic",
+      "category": "AI",
+      "description": "Claude language model inference",
+      "documentation_url": "https://docs.anthropic.com/en/api/overview",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838227+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source_urls": [
+        "https://docs.anthropic.com/en/api/overview"
+      ]
+    },
+    {
+      "id": "google-gemini-api",
+      "name": "Google Gemini API",
+      "provider": "Google",
+      "category": "AI",
+      "description": "Multimodal generative AI models",
+      "documentation_url": "https://ai.google.dev/gemini-api/docs",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838262+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source_urls": [
+        "https://ai.google.dev/gemini-api/docs"
+      ]
+    },
+    {
+      "id": "hugging-face-inference-providers",
+      "name": "Hugging Face Inference Providers",
+      "provider": "Hugging Face",
+      "category": "AI",
+      "description": "Hosted model inference",
+      "documentation_url": "https://huggingface.co/docs/inference-providers/index",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838279+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source_urls": [
+        "https://huggingface.co/docs/inference-providers/index"
+      ]
+    },
+    {
+      "id": "replicate-api",
+      "name": "Replicate API",
+      "provider": "Replicate",
+      "category": "AI",
+      "description": "Run hosted machine learning models",
+      "documentation_url": "https://replicate.com/docs",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838291+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source_urls": [
+        "https://replicate.com/docs"
+      ]
+    },
+    {
+      "id": "elevenlabs-api",
+      "name": "ElevenLabs API",
+      "provider": "ElevenLabs",
+      "category": "AI",
+      "description": "Speech synthesis and voice AI",
+      "documentation_url": "https://elevenlabs.io/docs/api-reference/introduction",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838302+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source_urls": [
+        "https://elevenlabs.io/docs/api-reference/introduction"
+      ]
+    },
+    {
+      "id": "deepl-api",
+      "name": "DeepL API",
+      "provider": "DeepL",
+      "category": "AI",
+      "description": "Machine translation",
+      "documentation_url": "https://developers.deepl.com/docs",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838312+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source_urls": [
+        "https://developers.deepl.com/docs"
+      ]
+    },
+    {
+      "id": "assemblyai-api",
+      "name": "AssemblyAI API",
+      "provider": "AssemblyAI",
+      "category": "AI",
+      "description": "Speech recognition and audio intelligence",
+      "documentation_url": "https://www.assemblyai.com/docs",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838323+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source_urls": [
+        "https://www.assemblyai.com/docs"
+      ]
+    },
+    {
+      "id": "mistral-ai-api",
+      "name": "Mistral AI API",
+      "provider": "Mistral AI",
+      "category": "AI",
+      "description": "Language model inference",
+      "documentation_url": "https://docs.mistral.ai/api/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838334+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/api/"
+      ]
+    },
+    {
+      "id": "cohere-api",
+      "name": "Cohere API",
+      "provider": "Cohere",
+      "category": "AI",
+      "description": "Language models and embeddings",
+      "documentation_url": "https://docs.cohere.com/reference/about",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838349+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source_urls": [
+        "https://docs.cohere.com/reference/about"
+      ]
+    },
+    {
+      "id": "pinecone-api",
+      "name": "Pinecone API",
+      "provider": "Pinecone",
+      "category": "AI",
+      "description": "Vector database search and indexing",
+      "documentation_url": "https://docs.pinecone.io/reference/api/introduction",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838360+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source_urls": [
+        "https://docs.pinecone.io/reference/api/introduction"
+      ]
+    },
+    {
+      "id": "supabase-api",
+      "name": "Supabase API",
+      "provider": "Supabase",
+      "category": "Developer",
+      "description": "Database and authentication APIs",
+      "documentation_url": "https://supabase.com/docs/guides/api",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838371+00:00",
+      "tags": [
+        "developer"
+      ],
+      "source_urls": [
+        "https://supabase.com/docs/guides/api"
+      ]
+    },
+    {
+      "id": "firebase-rest-api",
+      "name": "Firebase REST API",
+      "provider": "Google Firebase",
+      "category": "Developer",
+      "description": "Firebase database and identity services",
+      "documentation_url": "https://firebase.google.com/docs/reference/rest",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838383+00:00",
+      "tags": [
+        "developer"
+      ],
+      "source_urls": [
+        "https://firebase.google.com/docs/reference/rest"
+      ]
+    },
+    {
+      "id": "postman-api",
+      "name": "Postman API",
+      "provider": "Postman",
+      "category": "Developer",
+      "description": "Manage collections and workspaces",
+      "documentation_url": "https://learning.postman.com/docs/developer/postman-api/intro-api/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838394+00:00",
+      "tags": [
+        "developer"
+      ],
+      "source_urls": [
+        "https://learning.postman.com/docs/developer/postman-api/intro-api/"
+      ]
+    },
+    {
+      "id": "gitlab-rest-api",
+      "name": "GitLab REST API",
+      "provider": "GitLab",
+      "category": "Developer",
+      "description": "Projects, CI pipelines and merge requests",
+      "documentation_url": "https://docs.gitlab.com/api/rest/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838405+00:00",
+      "tags": [
+        "developer"
+      ],
+      "source_urls": [
+        "https://docs.gitlab.com/api/rest/"
+      ]
+    },
+    {
+      "id": "docker-hub-api",
+      "name": "Docker Hub API",
+      "provider": "Docker",
+      "category": "Developer",
+      "description": "Container repository management",
+      "documentation_url": "https://docs.docker.com/reference/api/hub/latest/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838417+00:00",
+      "tags": [
+        "developer"
+      ],
+      "source_urls": [
+        "https://docs.docker.com/reference/api/hub/latest/"
+      ]
+    },
+    {
+      "id": "digitalocean-api",
+      "name": "DigitalOcean API",
+      "provider": "DigitalOcean",
+      "category": "Cloud",
+      "description": "Cloud infrastructure management",
+      "documentation_url": "https://docs.digitalocean.com/reference/api/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838428+00:00",
+      "tags": [
+        "cloud"
+      ],
+      "source_urls": [
+        "https://docs.digitalocean.com/reference/api/"
+      ]
+    },
+    {
+      "id": "vercel-rest-api",
+      "name": "Vercel REST API",
+      "provider": "Vercel",
+      "category": "Cloud",
+      "description": "Deployment and project automation",
+      "documentation_url": "https://vercel.com/docs/rest-api",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838439+00:00",
+      "tags": [
+        "cloud"
+      ],
+      "source_urls": [
+        "https://vercel.com/docs/rest-api"
+      ]
+    },
+    {
+      "id": "netlify-api",
+      "name": "Netlify API",
+      "provider": "Netlify",
+      "category": "Cloud",
+      "description": "Sites, deployments and builds",
+      "documentation_url": "https://open-api.netlify.com/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838451+00:00",
+      "tags": [
+        "cloud"
+      ],
+      "source_urls": [
+        "https://open-api.netlify.com/"
+      ]
+    },
+    {
+      "id": "datadog-api",
+      "name": "Datadog API",
+      "provider": "Datadog",
+      "category": "Cloud",
+      "description": "Monitoring and observability",
+      "documentation_url": "https://docs.datadoghq.com/api/latest/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838464+00:00",
+      "tags": [
+        "cloud"
+      ],
+      "source_urls": [
+        "https://docs.datadoghq.com/api/latest/"
+      ]
+    },
+    {
+      "id": "sentry-api",
+      "name": "Sentry API",
+      "provider": "Sentry",
+      "category": "Developer",
+      "description": "Error tracking and issue management",
+      "documentation_url": "https://docs.sentry.io/api/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838476+00:00",
+      "tags": [
+        "developer"
+      ],
+      "source_urls": [
+        "https://docs.sentry.io/api/"
+      ]
+    },
+    {
+      "id": "virustotal-api",
+      "name": "VirusTotal API",
+      "provider": "VirusTotal",
+      "category": "Cybersecurity",
+      "description": "Threat intelligence and file analysis",
+      "documentation_url": "https://docs.virustotal.com/reference/overview",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838488+00:00",
+      "tags": [
+        "cybersecurity"
+      ],
+      "source_urls": [
+        "https://docs.virustotal.com/reference/overview"
+      ]
+    },
+    {
+      "id": "shodan-api",
+      "name": "Shodan API",
+      "provider": "Shodan",
+      "category": "Cybersecurity",
+      "description": "Internet-exposed device search",
+      "documentation_url": "https://developer.shodan.io/api",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838500+00:00",
+      "tags": [
+        "cybersecurity"
+      ],
+      "source_urls": [
+        "https://developer.shodan.io/api"
+      ]
+    },
+    {
+      "id": "censys-api",
+      "name": "Censys API",
+      "provider": "Censys",
+      "category": "Cybersecurity",
+      "description": "Internet host and certificate intelligence",
+      "documentation_url": "https://docs.censys.com/reference/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838511+00:00",
+      "tags": [
+        "cybersecurity"
+      ],
+      "source_urls": [
+        "https://docs.censys.com/reference/"
+      ]
+    },
+    {
+      "id": "nvd-api",
+      "name": "NVD API",
+      "provider": "NIST",
+      "category": "Cybersecurity",
+      "description": "National vulnerability database",
+      "documentation_url": "https://nvd.nist.gov/developers/vulnerabilities",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838523+00:00",
+      "tags": [
+        "cybersecurity"
+      ],
+      "source_urls": [
+        "https://nvd.nist.gov/developers/vulnerabilities"
+      ]
+    },
+    {
+      "id": "mitre-att-ck-taxii",
+      "name": "MITRE ATT&CK TAXII",
+      "provider": "MITRE",
+      "category": "Cybersecurity",
+      "description": "Threat technique knowledge base",
+      "documentation_url": "https://attack.mitre.org/resources/attack-data-and-tools/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838537+00:00",
+      "tags": [
+        "cybersecurity"
+      ],
+      "source_urls": [
+        "https://attack.mitre.org/resources/attack-data-and-tools/"
+      ]
+    },
+    {
+      "id": "fhir-r4-api",
+      "name": "FHIR R4 API",
+      "provider": "HL7",
+      "category": "Healthcare",
+      "description": "Interoperable healthcare resource standard",
+      "documentation_url": "https://hl7.org/fhir/R4/http.html",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838549+00:00",
+      "tags": [
+        "healthcare"
+      ],
+      "source_urls": [
+        "https://hl7.org/fhir/R4/http.html"
+      ]
+    },
+    {
+      "id": "medlineplus-connect",
+      "name": "MedlinePlus Connect",
+      "provider": "National Library of Medicine",
+      "category": "Healthcare",
+      "description": "Consumer health information links",
+      "documentation_url": "https://medlineplus.gov/connect/service.html",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838562+00:00",
+      "tags": [
+        "healthcare"
+      ],
+      "source_urls": [
+        "https://medlineplus.gov/connect/service.html"
+      ]
+    },
+    {
+      "id": "rxnorm-api",
+      "name": "RxNorm API",
+      "provider": "National Library of Medicine",
+      "category": "Healthcare",
+      "description": "Normalized drug terminology",
+      "documentation_url": "https://lhncbc.nlm.nih.gov/RxNav/APIs/RxNormAPIs.html",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838575+00:00",
+      "tags": [
+        "healthcare"
+      ],
+      "source_urls": [
+        "https://lhncbc.nlm.nih.gov/RxNav/APIs/RxNormAPIs.html"
+      ]
+    },
+    {
+      "id": "cdc-data-api",
+      "name": "CDC Data API",
+      "provider": "CDC",
+      "category": "Healthcare",
+      "description": "Public health datasets",
+      "documentation_url": "https://data.cdc.gov/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838882+00:00",
+      "tags": [
+        "healthcare"
+      ],
+      "source_urls": [
+        "https://data.cdc.gov/"
+      ]
+    },
+    {
+      "id": "cms-data-api",
+      "name": "CMS Data API",
+      "provider": "CMS",
+      "category": "Healthcare",
+      "description": "Medicare and Medicaid public data",
+      "documentation_url": "https://data.cms.gov/api-docs",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838904+00:00",
+      "tags": [
+        "healthcare"
+      ],
+      "source_urls": [
+        "https://data.cms.gov/api-docs"
+      ]
+    },
+    {
+      "id": "opencorporates-api",
+      "name": "OpenCorporates API",
+      "provider": "OpenCorporates",
+      "category": "Business",
+      "description": "Company registry data",
+      "documentation_url": "https://api.opencorporates.com/documentation/API-Reference",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.838926+00:00",
+      "tags": [
+        "business"
+      ],
+      "source_urls": [
+        "https://api.opencorporates.com/documentation/API-Reference"
+      ]
+    },
+    {
+      "id": "sec-edgar-apis",
+      "name": "SEC EDGAR APIs",
+      "provider": "SEC",
+      "category": "Finance",
+      "description": "Company filings and submissions",
+      "documentation_url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839047+00:00",
+      "tags": [
+        "finance"
+      ],
+      "source_urls": [
+        "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+      ]
+    },
+    {
+      "id": "polygon-io-api",
+      "name": "Polygon.io API",
+      "provider": "Polygon.io",
+      "category": "Finance",
+      "description": "Market data and financial aggregates",
+      "documentation_url": "https://polygon.io/docs",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839068+00:00",
+      "tags": [
+        "finance"
+      ],
+      "source_urls": [
+        "https://polygon.io/docs"
+      ]
+    },
+    {
+      "id": "finnhub-api",
+      "name": "Finnhub API",
+      "provider": "Finnhub",
+      "category": "Finance",
+      "description": "Financial market data",
+      "documentation_url": "https://finnhub.io/docs/api",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839083+00:00",
+      "tags": [
+        "finance"
+      ],
+      "source_urls": [
+        "https://finnhub.io/docs/api"
+      ]
+    },
+    {
+      "id": "etherscan-api",
+      "name": "Etherscan API",
+      "provider": "Etherscan",
+      "category": "Finance",
+      "description": "Blockchain explorer data",
+      "documentation_url": "https://docs.etherscan.io/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839102+00:00",
+      "tags": [
+        "finance"
+      ],
+      "source_urls": [
+        "https://docs.etherscan.io/"
+      ]
+    },
+    {
+      "id": "open-exchange-rates-api",
+      "name": "Open Exchange Rates API",
+      "provider": "Open Exchange Rates",
+      "category": "Finance",
+      "description": "Foreign exchange rates",
+      "documentation_url": "https://docs.openexchangerates.org/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839117+00:00",
+      "tags": [
+        "finance"
+      ],
+      "source_urls": [
+        "https://docs.openexchangerates.org/"
+      ]
+    },
+    {
+      "id": "ticketmaster-discovery-api",
+      "name": "Ticketmaster Discovery API",
+      "provider": "Ticketmaster",
+      "category": "Entertainment",
+      "description": "Event discovery and venues",
+      "documentation_url": "https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839131+00:00",
+      "tags": [
+        "entertainment"
+      ],
+      "source_urls": [
+        "https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/"
+      ]
+    },
+    {
+      "id": "spotify-web-api",
+      "name": "Spotify Web API",
+      "provider": "Spotify",
+      "category": "Media",
+      "description": "Music catalog and playlists",
+      "documentation_url": "https://developer.spotify.com/documentation/web-api",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839145+00:00",
+      "tags": [
+        "media"
+      ],
+      "source_urls": [
+        "https://developer.spotify.com/documentation/web-api"
+      ]
+    },
+    {
+      "id": "youtube-data-api",
+      "name": "YouTube Data API",
+      "provider": "Google",
+      "category": "Media",
+      "description": "Videos, channels and playlists",
+      "documentation_url": "https://developers.google.com/youtube/v3",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839161+00:00",
+      "tags": [
+        "media"
+      ],
+      "source_urls": [
+        "https://developers.google.com/youtube/v3"
+      ]
+    },
+    {
+      "id": "vimeo-api",
+      "name": "Vimeo API",
+      "provider": "Vimeo",
+      "category": "Media",
+      "description": "Video management",
+      "documentation_url": "https://developer.vimeo.com/api/reference",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839175+00:00",
+      "tags": [
+        "media"
+      ],
+      "source_urls": [
+        "https://developer.vimeo.com/api/reference"
+      ]
+    },
+    {
+      "id": "openweather-api",
+      "name": "OpenWeather API",
+      "provider": "OpenWeather",
+      "category": "Weather",
+      "description": "Weather forecasts and observations",
+      "documentation_url": "https://openweathermap.org/api",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839189+00:00",
+      "tags": [
+        "weather"
+      ],
+      "source_urls": [
+        "https://openweathermap.org/api"
+      ]
+    },
+    {
+      "id": "meteostat-api",
+      "name": "Meteostat API",
+      "provider": "Meteostat",
+      "category": "Weather",
+      "description": "Historical weather observations",
+      "documentation_url": "https://dev.meteostat.net/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839204+00:00",
+      "tags": [
+        "weather"
+      ],
+      "source_urls": [
+        "https://dev.meteostat.net/"
+      ]
+    },
+    {
+      "id": "tomorrow-io-api",
+      "name": "Tomorrow.io API",
+      "provider": "Tomorrow.io",
+      "category": "Weather",
+      "description": "Weather forecasts and insights",
+      "documentation_url": "https://docs.tomorrow.io/reference/welcome",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839218+00:00",
+      "tags": [
+        "weather"
+      ],
+      "source_urls": [
+        "https://docs.tomorrow.io/reference/welcome"
+      ]
+    },
+    {
+      "id": "amadeus-self-service-apis",
+      "name": "Amadeus Self-Service APIs",
+      "provider": "Amadeus",
+      "category": "Travel",
+      "description": "Flight and hotel travel search",
+      "documentation_url": "https://developers.amadeus.com/self-service",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839234+00:00",
+      "tags": [
+        "travel"
+      ],
+      "source_urls": [
+        "https://developers.amadeus.com/self-service"
+      ]
+    },
+    {
+      "id": "opensky-network-api",
+      "name": "OpenSky Network API",
+      "provider": "OpenSky Network",
+      "category": "Aviation",
+      "description": "Aircraft state vectors",
+      "documentation_url": "https://openskynetwork.github.io/opensky-api/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839249+00:00",
+      "tags": [
+        "aviation"
+      ],
+      "source_urls": [
+        "https://openskynetwork.github.io/opensky-api/"
+      ]
+    },
+    {
+      "id": "transport-for-london-unified-api",
+      "name": "Transport for London Unified API",
+      "provider": "TfL",
+      "category": "Transportation",
+      "description": "London transit data",
+      "documentation_url": "https://api.tfl.gov.uk/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839265+00:00",
+      "tags": [
+        "transportation"
+      ],
+      "source_urls": [
+        "https://api.tfl.gov.uk/"
+      ]
+    },
+    {
+      "id": "gtfs-realtime",
+      "name": "GTFS Realtime",
+      "provider": "MobilityData",
+      "category": "Transportation",
+      "description": "Realtime public transit feed specification",
+      "documentation_url": "https://gtfs.org/documentation/realtime/reference/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839280+00:00",
+      "tags": [
+        "transportation"
+      ],
+      "source_urls": [
+        "https://gtfs.org/documentation/realtime/reference/"
+      ]
+    },
+    {
+      "id": "openchargemap-api",
+      "name": "OpenChargeMap API",
+      "provider": "Open Charge Map",
+      "category": "Energy",
+      "description": "EV charging locations",
+      "documentation_url": "https://openchargemap.org/site/develop/api",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839294+00:00",
+      "tags": [
+        "energy"
+      ],
+      "source_urls": [
+        "https://openchargemap.org/site/develop/api"
+      ]
+    },
+    {
+      "id": "electricity-maps-api",
+      "name": "Electricity Maps API",
+      "provider": "Electricity Maps",
+      "category": "Energy",
+      "description": "Electricity carbon intensity data",
+      "documentation_url": "https://portal.electricitymaps.com/docs",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839311+00:00",
+      "tags": [
+        "energy"
+      ],
+      "source_urls": [
+        "https://portal.electricitymaps.com/docs"
+      ]
+    },
+    {
+      "id": "usda-fooddata-central-api",
+      "name": "USDA FoodData Central API",
+      "provider": "USDA",
+      "category": "Agriculture",
+      "description": "Food nutrient database",
+      "documentation_url": "https://fdc.nal.usda.gov/api-guide/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839327+00:00",
+      "tags": [
+        "agriculture"
+      ],
+      "source_urls": [
+        "https://fdc.nal.usda.gov/api-guide/"
+      ]
+    },
+    {
+      "id": "usda-quick-stats-api",
+      "name": "USDA Quick Stats API",
+      "provider": "USDA",
+      "category": "Agriculture",
+      "description": "Agricultural statistics",
+      "documentation_url": "https://quickstats.nass.usda.gov/api",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839342+00:00",
+      "tags": [
+        "agriculture"
+      ],
+      "source_urls": [
+        "https://quickstats.nass.usda.gov/api"
+      ]
+    },
+    {
+      "id": "gbfs",
+      "name": "GBFS",
+      "provider": "MobilityData",
+      "category": "Transportation",
+      "description": "Shared mobility feed specification",
+      "documentation_url": "https://gbfs.org/documentation/reference/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839356+00:00",
+      "tags": [
+        "transportation"
+      ],
+      "source_urls": [
+        "https://gbfs.org/documentation/reference/"
+      ]
+    },
+    {
+      "id": "ip-geolocation-api",
+      "name": "IP Geolocation API",
+      "provider": "ipapi",
+      "category": "Geospatial",
+      "description": "IP-based geolocation",
+      "documentation_url": "https://ipapi.co/api/",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839371+00:00",
+      "tags": [
+        "geospatial"
+      ],
+      "source_urls": [
+        "https://ipapi.co/api/"
+      ]
+    },
+    {
+      "id": "google-maps-platform-apis",
+      "name": "Google Maps Platform APIs",
+      "provider": "Google",
+      "category": "Geospatial",
+      "description": "Maps, routes and places",
+      "documentation_url": "https://developers.google.com/maps/documentation",
+      "pricing_url": null,
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "unknown",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "not verified",
+      "rate_limit": "not verified",
+      "commercial_use": "requires terms review",
+      "verification_status": "candidate — official documentation link supplied; not checked live",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T03:26:08.839387+00:00",
+      "tags": [
+        "geospatial"
+      ],
+      "source_urls": [
+        "https://developers.google.com/maps/documentation"
+      ]
+    },
+    {
+      "id": "rawg",
+      "name": "RAWG Video Games Database API",
+      "provider": "RAWG",
+      "category": "Gaming & Esports",
+      "subcategory": "Game databases",
+      "description": "Game discovery, screenshots, genres, platforms, ratings and store links.",
+      "documentation_url": "https://rawg.io/apidocs",
+      "pricing_url": "https://rawg.io/apidocs",
+      "pricing_model": "freemium",
+      "authentication": "key",
+      "protocol": "REST / HTTP",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown unless selected plan formula applies",
+      "rate_limit": "Free 20,000 requests/month; Business 50,000 requests/month",
+      "commercial_use": "review provider terms",
+      "verification_status": "official source checked",
+      "last_checked_utc": "2026-10-17T00:00:00Z",
+      "added_utc": "2026-10-17T00:00:00Z",
+      "tags": [
+        "gaming",
+        "game databases"
+      ],
+      "source_urls": [
+        "https://rawg.io/apidocs"
+      ],
+      "pricing_notes": "Free personal tier up to 20,000 requests/month; Business $149/month up to 50,000 requests; attribution and use conditions apply.",
+      "verified_fields": [
+        "documentation",
+        "pricing_summary"
+      ],
+      "evidence_urls": [
+        "https://rawg.io/apidocs"
+      ],
+      "monthly_subscription_usd": 149,
+      "included_requests_monthly": 50000
+    },
+    {
+      "id": "igdb",
+      "name": "IGDB API",
+      "provider": "IGDB / Twitch",
+      "category": "Gaming & Esports",
+      "subcategory": "Game databases",
+      "description": "Game metadata, release dates, platforms, covers and search.",
+      "documentation_url": "https://api-docs.igdb.com/",
+      "pricing_url": "https://api-docs.igdb.com/",
+      "pricing_model": "free",
+      "authentication": "OAuth2",
+      "protocol": "REST / HTTP",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown unless selected plan formula applies",
+      "rate_limit": "not verified",
+      "commercial_use": "review provider terms",
+      "verification_status": "official source checked",
+      "last_checked_utc": "2026-10-17T00:00:00Z",
+      "added_utc": "2026-10-17T00:00:00Z",
+      "tags": [
+        "gaming",
+        "game databases"
+      ],
+      "source_urls": [
+        "https://api-docs.igdb.com/"
+      ],
+      "pricing_notes": "Official FAQ describes free API access; commercial partnership and attribution conditions apply.",
+      "verified_fields": [
+        "documentation"
+      ],
+      "evidence_urls": [
+        "https://api-docs.igdb.com/"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    },
+    {
+      "id": "steamworks",
+      "name": "Steamworks Web API",
+      "provider": "Valve",
+      "category": "Gaming & Esports",
+      "subcategory": "Platforms",
+      "description": "Steam user and game stats, achievements, ownership and leaderboards; some methods restricted.",
+      "documentation_url": "https://partner.steamgames.com/doc/webapi_overview",
+      "pricing_url": "https://partner.steamgames.com/doc/webapi_overview",
+      "pricing_model": "unknown",
+      "authentication": "mixed",
+      "protocol": "REST / HTTP",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown unless selected plan formula applies",
+      "rate_limit": "not verified",
+      "commercial_use": "review provider terms",
+      "verification_status": "official source checked",
+      "last_checked_utc": "2026-10-17T00:00:00Z",
+      "added_utc": "2026-10-17T00:00:00Z",
+      "tags": [
+        "gaming",
+        "platforms"
+      ],
+      "source_urls": [
+        "https://partner.steamgames.com/doc/webapi_overview"
+      ],
+      "pricing_notes": "Public and protected endpoints have different permissions; price unverified.",
+      "verified_fields": [
+        "documentation"
+      ],
+      "evidence_urls": [
+        "https://partner.steamgames.com/doc/webapi_overview"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    },
+    {
+      "id": "riot-lol",
+      "name": "Riot League of Legends API",
+      "provider": "Riot Games",
+      "category": "Gaming & Esports",
+      "subcategory": "Esports",
+      "description": "League match history, rankings, champion mastery and account data.",
+      "documentation_url": "https://developer.riotgames.com/apis",
+      "pricing_url": "https://developer.riotgames.com/docs/portal",
+      "pricing_model": "unknown",
+      "authentication": "key",
+      "protocol": "REST / HTTP",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown unless selected plan formula applies",
+      "rate_limit": "not verified",
+      "commercial_use": "review provider terms",
+      "verification_status": "official source checked",
+      "last_checked_utc": "2026-10-17T00:00:00Z",
+      "added_utc": "2026-10-17T00:00:00Z",
+      "tags": [
+        "gaming",
+        "esports"
+      ],
+      "source_urls": [
+        "https://developer.riotgames.com/apis"
+      ],
+      "pricing_notes": "Developer key expires every 24 hours; production approval required for public apps.",
+      "verified_fields": [
+        "documentation"
+      ],
+      "evidence_urls": [
+        "https://developer.riotgames.com/apis"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    },
+    {
+      "id": "riot-valorant",
+      "name": "Riot VALORANT API",
+      "provider": "Riot Games",
+      "category": "Gaming & Esports",
+      "subcategory": "Esports",
+      "description": "VALORANT match, ranked, content and status data.",
+      "documentation_url": "https://developer.riotgames.com/apis",
+      "pricing_url": "https://developer.riotgames.com/docs/portal",
+      "pricing_model": "unknown",
+      "authentication": "key",
+      "protocol": "REST / HTTP",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown unless selected plan formula applies",
+      "rate_limit": "not verified",
+      "commercial_use": "review provider terms",
+      "verification_status": "official source checked",
+      "last_checked_utc": "2026-10-17T00:00:00Z",
+      "added_utc": "2026-10-17T00:00:00Z",
+      "tags": [
+        "gaming",
+        "esports"
+      ],
+      "source_urls": [
+        "https://developer.riotgames.com/apis"
+      ],
+      "pricing_notes": "Production access and policies apply; price unverified.",
+      "verified_fields": [
+        "documentation"
+      ],
+      "evidence_urls": [
+        "https://developer.riotgames.com/apis"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    },
+    {
+      "id": "riot-tft",
+      "name": "Riot Teamfight Tactics API",
+      "provider": "Riot Games",
+      "category": "Gaming & Esports",
+      "subcategory": "Esports",
+      "description": "TFT match and ranked statistics.",
+      "documentation_url": "https://developer.riotgames.com/apis",
+      "pricing_url": "https://developer.riotgames.com/docs/portal",
+      "pricing_model": "unknown",
+      "authentication": "key",
+      "protocol": "REST / HTTP",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown unless selected plan formula applies",
+      "rate_limit": "not verified",
+      "commercial_use": "review provider terms",
+      "verification_status": "official source checked",
+      "last_checked_utc": "2026-10-17T00:00:00Z",
+      "added_utc": "2026-10-17T00:00:00Z",
+      "tags": [
+        "gaming",
+        "esports"
+      ],
+      "source_urls": [
+        "https://developer.riotgames.com/apis"
+      ],
+      "pricing_notes": "Production access and policies apply; price unverified.",
+      "verified_fields": [
+        "documentation"
+      ],
+      "evidence_urls": [
+        "https://developer.riotgames.com/apis"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    },
+    {
+      "id": "roblox-cloud",
+      "name": "Roblox Open Cloud API",
+      "provider": "Roblox",
+      "category": "Gaming & Esports",
+      "subcategory": "Game development",
+      "description": "Manage experiences, users, inventory, data stores and webhooks.",
+      "documentation_url": "https://create.roblox.com/docs/cloud",
+      "pricing_url": "https://create.roblox.com/docs/cloud",
+      "pricing_model": "unknown",
+      "authentication": "key/OAuth2",
+      "protocol": "REST / HTTP",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown unless selected plan formula applies",
+      "rate_limit": "not verified",
+      "commercial_use": "review provider terms",
+      "verification_status": "official source checked",
+      "last_checked_utc": "2026-10-17T00:00:00Z",
+      "added_utc": "2026-10-17T00:00:00Z",
+      "tags": [
+        "gaming",
+        "game development"
+      ],
+      "source_urls": [
+        "https://create.roblox.com/docs/cloud"
+      ],
+      "pricing_notes": "Granular permissions; pricing not verified.",
+      "verified_fields": [
+        "documentation"
+      ],
+      "evidence_urls": [
+        "https://create.roblox.com/docs/cloud"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    },
+    {
+      "id": "fortnite-data",
+      "name": "Fortnite Data API",
+      "provider": "Epic Games",
+      "category": "Gaming & Esports",
+      "subcategory": "Esports",
+      "description": "Island plays, engagement, retention and peak concurrent players.",
+      "documentation_url": "https://dev.epicgames.com/documentation/fortnite/using-fortnite-data-api-in-fortnite",
+      "pricing_url": "https://dev.epicgames.com/documentation/fortnite/using-fortnite-data-api-in-fortnite",
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "REST / HTTP",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown unless selected plan formula applies",
+      "rate_limit": "not verified",
+      "commercial_use": "review provider terms",
+      "verification_status": "official source checked",
+      "last_checked_utc": "2026-10-17T00:00:00Z",
+      "added_utc": "2026-10-17T00:00:00Z",
+      "tags": [
+        "gaming",
+        "esports"
+      ],
+      "source_urls": [
+        "https://dev.epicgames.com/documentation/fortnite/using-fortnite-data-api-in-fortnite"
+      ],
+      "pricing_notes": "Public island performance metrics; pricing not verified.",
+      "verified_fields": [
+        "documentation"
+      ],
+      "evidence_urls": [
+        "https://dev.epicgames.com/documentation/fortnite/using-fortnite-data-api-in-fortnite"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    },
+    {
+      "id": "epic-eos",
+      "name": "Epic Online Services Web API",
+      "provider": "Epic Games",
+      "category": "Gaming & Esports",
+      "subcategory": "Game development",
+      "description": "Online services integration and game back-end features.",
+      "documentation_url": "https://dev.epicgames.com/documentation/",
+      "pricing_url": "https://dev.epicgames.com/documentation/",
+      "pricing_model": "unknown",
+      "authentication": "mixed",
+      "protocol": "REST / HTTP",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown unless selected plan formula applies",
+      "rate_limit": "not verified",
+      "commercial_use": "review provider terms",
+      "verification_status": "official source checked",
+      "last_checked_utc": "2026-10-17T00:00:00Z",
+      "added_utc": "2026-10-17T00:00:00Z",
+      "tags": [
+        "gaming",
+        "game development"
+      ],
+      "source_urls": [
+        "https://dev.epicgames.com/documentation/"
+      ],
+      "pricing_notes": "Feature and access conditions need individual review.",
+      "verified_fields": [
+        "documentation"
+      ],
+      "evidence_urls": [
+        "https://dev.epicgames.com/documentation/"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch Helix API",
+      "provider": "Twitch",
+      "category": "Gaming & Esports",
+      "subcategory": "Streaming",
+      "description": "Streams, channels, clips, users and games.",
+      "documentation_url": "https://dev.twitch.tv/docs/api/",
+      "pricing_url": "https://dev.twitch.tv/docs/api/",
+      "pricing_model": "unknown",
+      "authentication": "OAuth2",
+      "protocol": "REST / HTTP",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown unless selected plan formula applies",
+      "rate_limit": "not verified",
+      "commercial_use": "review provider terms",
+      "verification_status": "candidate: documentation link not rechecked",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T00:00:00Z",
+      "tags": [
+        "gaming",
+        "streaming"
+      ],
+      "source_urls": [
+        "https://dev.twitch.tv/docs/api/"
+      ],
+      "pricing_notes": "Rate limits and price not verified in this batch.",
+      "verified_fields": [],
+      "evidence_urls": [
+        "https://dev.twitch.tv/docs/api/"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    },
+    {
+      "id": "lichess",
+      "name": "Lichess API",
+      "provider": "Lichess",
+      "category": "Gaming & Esports",
+      "subcategory": "Competitive gaming",
+      "description": "Chess games, users, studies, tournaments and bots.",
+      "documentation_url": "https://lichess.org/api",
+      "pricing_url": "https://lichess.org/api",
+      "pricing_model": "unknown",
+      "authentication": "OAuth2",
+      "protocol": "REST / HTTP",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown unless selected plan formula applies",
+      "rate_limit": "not verified",
+      "commercial_use": "review provider terms",
+      "verification_status": "candidate: documentation link not rechecked",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T00:00:00Z",
+      "tags": [
+        "gaming",
+        "competitive gaming"
+      ],
+      "source_urls": [
+        "https://lichess.org/api"
+      ],
+      "pricing_notes": "Open API; usage and commercial terms not verified in this batch.",
+      "verified_fields": [],
+      "evidence_urls": [
+        "https://lichess.org/api"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    },
+    {
+      "id": "chesscom",
+      "name": "Chess.com Published Data API",
+      "provider": "Chess.com",
+      "category": "Gaming & Esports",
+      "subcategory": "Competitive gaming",
+      "description": "Public chess player profiles, stats and games.",
+      "documentation_url": "https://www.chess.com/news/view/published-data-api",
+      "pricing_url": "https://www.chess.com/news/view/published-data-api",
+      "pricing_model": "unknown",
+      "authentication": "none",
+      "protocol": "REST / HTTP",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown unless selected plan formula applies",
+      "rate_limit": "not verified",
+      "commercial_use": "review provider terms",
+      "verification_status": "candidate: documentation link not rechecked",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T00:00:00Z",
+      "tags": [
+        "gaming",
+        "competitive gaming"
+      ],
+      "source_urls": [
+        "https://www.chess.com/news/view/published-data-api"
+      ],
+      "pricing_notes": "Public data API; terms and rate limits not verified.",
+      "verified_fields": [],
+      "evidence_urls": [
+        "https://www.chess.com/news/view/published-data-api"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    },
+    {
+      "id": "eve-esi",
+      "name": "EVE Online ESI API",
+      "provider": "CCP Games",
+      "category": "Gaming & Esports",
+      "subcategory": "MMO",
+      "description": "EVE Online universe, characters, corporations and markets.",
+      "documentation_url": "https://esi.evetech.net/ui/",
+      "pricing_url": "https://esi.evetech.net/ui/",
+      "pricing_model": "unknown",
+      "authentication": "OAuth2/mixed",
+      "protocol": "REST / HTTP",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown unless selected plan formula applies",
+      "rate_limit": "not verified",
+      "commercial_use": "review provider terms",
+      "verification_status": "candidate: documentation link not rechecked",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T00:00:00Z",
+      "tags": [
+        "gaming",
+        "mmo"
+      ],
+      "source_urls": [
+        "https://esi.evetech.net/ui/"
+      ],
+      "pricing_notes": "Public and authenticated endpoints; usage terms not verified.",
+      "verified_fields": [],
+      "evidence_urls": [
+        "https://esi.evetech.net/ui/"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    },
+    {
+      "id": "blizzard",
+      "name": "Battle.net API",
+      "provider": "Blizzard Entertainment",
+      "category": "Gaming & Esports",
+      "subcategory": "MMO",
+      "description": "Blizzard game data and profile services.",
+      "documentation_url": "https://develop.battle.net/documentation",
+      "pricing_url": "https://develop.battle.net/documentation",
+      "pricing_model": "unknown",
+      "authentication": "OAuth2",
+      "protocol": "REST / HTTP",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown unless selected plan formula applies",
+      "rate_limit": "not verified",
+      "commercial_use": "review provider terms",
+      "verification_status": "candidate: documentation link not rechecked",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T00:00:00Z",
+      "tags": [
+        "gaming",
+        "mmo"
+      ],
+      "source_urls": [
+        "https://develop.battle.net/documentation"
+      ],
+      "pricing_notes": "Product-specific access and rate limits require review.",
+      "verified_fields": [],
+      "evidence_urls": [
+        "https://develop.battle.net/documentation"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    },
+    {
+      "id": "speedrun",
+      "name": "speedrun.com API",
+      "provider": "speedrun.com",
+      "category": "Gaming & Esports",
+      "subcategory": "Esports",
+      "description": "Speedrun leaderboards, games, categories and records.",
+      "documentation_url": "https://github.com/speedruncomorg/api",
+      "pricing_url": "https://github.com/speedruncomorg/api",
+      "pricing_model": "unknown",
+      "authentication": "unknown",
+      "protocol": "REST / HTTP",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown unless selected plan formula applies",
+      "rate_limit": "not verified",
+      "commercial_use": "review provider terms",
+      "verification_status": "candidate: documentation link not rechecked",
+      "last_checked_utc": null,
+      "added_utc": "2026-10-17T00:00:00Z",
+      "tags": [
+        "gaming",
+        "esports"
+      ],
+      "source_urls": [
+        "https://github.com/speedruncomorg/api"
+      ],
+      "pricing_notes": "Documentation candidate; current availability and terms not verified.",
+      "verified_fields": [],
+      "evidence_urls": [
+        "https://github.com/speedruncomorg/api"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    },
+    {
+      "id": "tarkov-dev-graphql",
+      "name": "tarkov.dev GraphQL API",
+      "provider": "the-hideout / tarkov.dev",
+      "category": "Gaming & Esports",
+      "subcategory": "Escape from Tarkov",
+      "description": "Community-maintained GraphQL API for flea prices, item stats, ammo, quests, traders, hideout, maps, bosses and game status.",
+      "documentation_url": "https://tarkov.dev/api",
+      "pricing_url": "https://github.com/the-hideout/tarkov-api",
+      "pricing_model": "free",
+      "authentication": "unknown",
+      "protocol": "GraphQL",
+      "rate_limit": "Not verified",
+      "commercial_use": "Review GPL-3.0 source license and game data rights",
+      "verification_status": "official community repository checked; pricing free stated; rate limits unverified",
+      "tags": [
+        "tarkov",
+        "eft",
+        "flea market",
+        "quests",
+        "ammo",
+        "hideout",
+        "graphql"
+      ],
+      "source_urls": [
+        "https://github.com/the-hideout/tarkov-api",
+        "https://github.com/the-hideout/tarkov-api/blob/main/docs/graphql-examples.md"
+      ],
+      "endpoint": "https://api.tarkov.dev/graphql",
+      "last_checked_utc": "2026-10-17",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: no verified numeric pricing formula",
+      "added_utc": "2026-10-17T00:00:00Z",
+      "verified_fields": [
+        "documentation_url",
+        "capabilities"
+      ],
+      "evidence_urls": [
+        "https://github.com/the-hideout/tarkov-api",
+        "https://github.com/the-hideout/tarkov-api/blob/main/docs/graphql-examples.md"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    },
+    {
+      "id": "fika-api",
+      "name": "Project Fika API",
+      "provider": "Project Fika",
+      "category": "Gaming & Esports",
+      "subcategory": "Escape from Tarkov",
+      "description": "Locally hosted API for SPT/Fika co-op mod data and integrations; requires configured instance and API key.",
+      "documentation_url": "https://wiki.project-fika.com/advanced-features/fika-api",
+      "pricing_url": "",
+      "pricing_model": "unknown",
+      "authentication": "bearer API key",
+      "protocol": "REST",
+      "rate_limit": "Not documented",
+      "commercial_use": "Fika project has noncommercial license; verify integration rights",
+      "verification_status": "official project documentation checked",
+      "tags": [
+        "tarkov",
+        "spt",
+        "fika",
+        "co-op",
+        "modding"
+      ],
+      "source_urls": [
+        "https://wiki.project-fika.com/advanced-features/fika-api"
+      ],
+      "endpoint": "Local server /fika/api/items",
+      "last_checked_utc": "2026-10-17",
+      "monthly_cost_usd": null,
+      "monthly_cost_status": "unknown: no verified numeric pricing formula",
+      "added_utc": "2026-10-17T00:00:00Z",
+      "verified_fields": [
+        "documentation_url",
+        "capabilities"
+      ],
+      "evidence_urls": [
+        "https://wiki.project-fika.com/advanced-features/fika-api"
+      ],
+      "monthly_subscription_usd": null,
+      "included_requests_monthly": null
+    }
+  ]
+}

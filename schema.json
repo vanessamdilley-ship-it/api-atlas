@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "required": [
+    "id",
+    "name",
+    "provider",
+    "category",
+    "description",
+    "documentation_url",
+    "pricing_model",
+    "verification_status"
+  ],
+  "pricing_policy": "unknown until official price units and date verified",
+  "dedupe_key": "provider + API product + canonical documentation URL",
+  "additional_fields": "see catalog record"
+}
